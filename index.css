@@ -1,0 +1,53 @@
+body{
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+}
+.nav{
+    margin-right: 20px;
+}
+.nav-link{
+    font-weight: 500;
+}
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    color: white;
+}
+a{
+    color: white;
+}
+li{
+    list-style: none;
+    color: white;
+}
+.logo{
+    display: flex;
+    margin-left: 20px;
+}
+.lead{
+    opacity: 0.75;
+}
+.btn{
+    border-radius: 30px;
+    background-color: black;
+    border: none;
+}
+.d-block{
+    background-size: cover;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px; /* Adjust spacing between images */
+  }
+  .image-grid img {
+    width: 100%;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+.bi{
+vertical-align: center;
+}
